@@ -27,8 +27,10 @@
 *.color7: #e4e4e4
 *.color15: #ffffff
 
-#URxvt*font: xft:DejaVuSansMono:size=14:antialias=true
+/*URxvt*font: xft:DejaVuSansMono:size=14:antialias=true*/
 URxvt*font: xft:DejaVuSansMono:antialias=true
+/*URxvt*font: xft:Magnolia:size=10*/
+/*URxvt*letterSpace:-8*/
 URxvt*borderLess: false
 URxvt*externalBorder: 0
 URxvt*internalBorder: 25
@@ -36,3 +38,7 @@ URxvt*scrollBar: false
 URxvt*saveLines: 5000
 
 Xft.dpi:163
+
+/*turn off ISO 14755 when ctrl+shift is pressed*/
+URxvt.iso14755: false
+URxvt.iso14755_52: false
