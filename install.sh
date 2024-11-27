@@ -12,8 +12,14 @@ ln -s "$HOME/dotfiles/nvim/lua" "$HOME/.config/nvim"
 ln -s "$HOME/dotfiles/nvim/doc" "$HOME/.config/nvim"
 
 ########
-# X11 #
+#  X11 #
 ########
 
 rm -rf "$HOME/.config/X11" 
-ln -sf "$HOME/dotfiles/X11" "$HOME/.config"
+ln -s "$HOME/dotfiles/X11" "$HOME/.config"
+
+#############
+# awesomeWM #
+#############
+
+ln -sf "$HOME/dotfiles/awesome/rc.lua" "$HOME/.config/awesome/rc.lua"
