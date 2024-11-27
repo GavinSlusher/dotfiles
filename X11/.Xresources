@@ -42,3 +42,6 @@ Xft.dpi:163
 /*turn off ISO 14755 when ctrl+shift is pressed*/
 URxvt.iso14755: false
 URxvt.iso14755_52: false
+
+env:
+	term: xterm-256color

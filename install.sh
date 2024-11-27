@@ -24,3 +24,9 @@ ln -s "$HOME/dotfiles/X11" "$HOME/.config"
 
 ln -sf "$HOME/dotfiles/awesome/rc.lua" "$HOME/.config/awesome/rc.lua"
 ln -sf "$HOME/dotfiles/awesome/theme.lua" "$HOME/.config/awesome/theme.lua"
+
+#############
+#    TMUX   #
+#############
+
+ln -sf "$HOME/dotfiles/tmux/.tmux.conf" "$HOME/.tmux.conf"
